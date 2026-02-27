@@ -38,22 +38,6 @@ python compute_matched.py --budget_minutes 60 --dataset fashion_mnist
 # 3. Full ablation suite
 bash run_all_ablations.sh && bash generate_figures.sh
 ```
-
----
-
-## AAAI Claim & Contributions
-
-**Claim:**
-> Flash Attention is not merely an implementation detail in Transformer diffusion models —
-> it enables qualitatively different operating points on the FID-efficiency Pareto frontier
-> by allowing larger batch sizes and more training iterations within the same compute budget.
-
-**Contributions:**
-1. First systematic study of Flash vs Standard Attention in Transformer-based diffusion
-2. Compute-matched evaluation protocol (FID under equal wall-clock time)
-3. Pareto frontier analysis: FID × throughput × memory across architectures
-4. Empirical guidelines for depth/width/PE/conditioning under compute constraints
-
 ---
 
 ## Experiment Pipeline
