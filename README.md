@@ -97,12 +97,3 @@ python train.py --config depth_4 --dataset fashion_mnist --epochs 30
 python evaluate.py --ckpt runs/depth_4/latest.pt --sampler ddim --steps 50 --guidance 3.0
 ```
 
-## Naming Note
-
-If you want the paper title to explicitly mention LLM-style diffusion models, a grammatically correct option is:
-
-**Efficiency Is All Diffusion-LLM Models Need**
-
-Current README title uses the more standard modeling term:
-
-**Efficiency Is All Diffusion Transformers Need**
